@@ -1,3 +1,3 @@
 # My Personal Website
 
-## Alicia Gyori
+ Alicia Gyori
