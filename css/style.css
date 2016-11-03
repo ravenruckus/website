@@ -1,2 +1,133 @@
-body {background-color: #00418b;
-color: #fff;}
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: rgba(0, 65, 139, .8);
+}
+nav {
+	color: #fff;
+	border-radius: 4px;
+	width: 225px;
+	margin-left: 3%;
+	border: 1px rgba(0, 65, 139, 1) double;
+	margin-bottom: 5px;
+	background-color: #fff;
+	box-shadow: 10px 10px 5px #888888;
+	margin-top: 15px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(0, 65, 139, .7);
+	background-image: url("whiteraven.svg");
+	background-repeat: no-repeat;
+	background-position: 5px 1px;
+	background-size: 12%;
+	padding-left: 30px;
+}
+nav ul li {
+	float: left;
+	padding-left: 3%;
+}
+nav ul li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 5px;
+	font-size: 1em;
+	border-radius: 6px;
+}
+nav ul li a:hover {
+	background-color: #333;
+}
+.content {
+	background-color: #fff;
+	border-radius: 4px;
+	width: 95%;
+	margin-left: 2.5%;
+}
+.head {
+	width: 100%;
+}
+.head img {
+	width: 100%;
+}
+.desk_top {
+	display: none;
+}
+.main {
+	padding: 2.5%;
+}
+.main h1 {
+	font-size: 2em;
+	color: rgba(0, 65, 139, 1);
+	border-bottom: 1px solid rgba(0, 65, 139, .5);
+}
+.main h2 {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 5px;
+}
+.main img{
+	width: 95%;
+	margin-left: 2.5%;
+}
+
+.kids h2 {
+		text-align: left;
+		font-size: 3em;
+		padding-bottom: 3px;
+		border-bottom: 1px solid rgba(0, 65, 139, .5);
+		margin-bottom: 10px;
+}
+	.kids h3, .main h3 {
+		font-size: 2em;
+		color: rgba(0, 65, 139, 1);
+		border-bottom: 1px solid rgba(0, 65, 139, .5);
+		text-align: center;
+	}
+	.kids h4 {
+		font-size: 1.2em;
+		color: rgba(0, 65, 139, 1);
+		text-align: center;
+	}
+	.main p {
+		font-size: 1.1em;
+		text-align: center;
+	}
+	.dragon_logo {
+		width: 50%;
+		margin-left: 25%;
+	}
+@media only screen and (min-width: 700px) {
+	nav {
+		margin-top: 0;
+	}
+	.kids h3 {
+		text-align: left;
+	}
+
+	.main {
+		padding-top: 0;
+	}
+	.main h1 {
+		font-size: 3em;
+	}
+	.main p {
+		font-size: 1.3em;
+	}
+	.mobile {
+		display: none;
+	}
+	.desk_top {
+		display: block;
+	}
+	.kids img {
+		width: 50%;
+		margin-left: 25%;
+	}
+
+}
